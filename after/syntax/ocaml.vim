@@ -51,6 +51,35 @@ if s:extraConceal
     syntax match ocamlNiceOperator ":>" conceal cchar=≻
     syntax match ocamlNiceOperator "|>" conceal cchar=↦
     syntax match ocamlNiceOperator "@@" conceal cchar=∘
+
+    " Greek letters. Some are missing, please contribute!
+    syntax match irpf90NiceOperator "\C\<Delta\>" conceal cchar=Δ
+    syntax match irpf90NiceOperator "\C\<Lambda\>" conceal cchar=Λ
+    syntax match irpf90NiceOperator "\C\<Pi\>" conceal cchar=Π
+    syntax match irpf90NiceOperator "\C\<Sigma\>" conceal cchar=Σ
+    syntax match irpf90NiceOperator "\C\<Psi\>" conceal cchar=Ψ
+    syntax match irpf90NiceOperator "\C\<Omega\>" conceal cchar=Ω
+    syntax match irpf90NiceOperator "\C\<alpha\>" conceal cchar=α
+    syntax match irpf90NiceOperator "\C\<beta\>" conceal cchar=β
+    syntax match irpf90NiceOperator "\C\<gamma\>" conceal cchar=γ
+    syntax match irpf90NiceOperator "\C\<delta\>" conceal cchar=δ
+    syntax match irpf90NiceOperator "\C\<epsilon\>" conceal cchar=ε
+    syntax match irpf90NiceOperator "\C\<zeta\>" conceal cchar=ζ
+    syntax match irpf90NiceOperator "\C\<theta\>" conceal cchar=θ
+    syntax match irpf90NiceOperator "\C\<eta\>" conceal cchar=η
+    syntax match irpf90NiceOperator "\C\<lambda\>" conceal cchar=λ
+    syntax match irpf90NiceOperator "\C\<mu\>" conceal cchar=μ
+    syntax match irpf90NiceOperator "\C\<nu\>" conceal cchar=ν
+    syntax match irpf90NiceOperator "\C\<pi\>" conceal cchar=π
+    syntax match irpf90NiceOperator "\C\<rho\>" conceal cchar=ρ
+    syntax match irpf90NiceOperator "\C\<sigma\>" conceal cchar=σ
+    syntax match irpf90NiceOperator "\C\<tau\>" conceal cchar=τ
+    syntax match irpf90NiceOperator "\C\<phi\>" conceal cchar=φ
+    syntax match irpf90NiceOperator "\C\<nabla\>" conceal cchar=∇
+    syntax match irpf90NiceOperator "\C\<chi\>" conceal cchar=χ
+    syntax match irpf90NiceOperator "\C\<psi\>" conceal cchar=ψ
+    syntax match irpf90NiceOperator "\C\<omega\>" conceal cchar=ω
+
 endif
 
 hi link ocamlNiceOperator Operator
