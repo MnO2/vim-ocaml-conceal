@@ -48,6 +48,9 @@ if s:extraConceal
     syntax match ocamlNiceOperator "\:\:" conceal cchar=∷
     syntax match ocamlNiceOperator "++" conceal cchar=⧺
     syntax match ocamlNiceOperator "\<for_all\>" conceal cchar=∀
+    syntax match ocamlNiceOperator ":>" conceal cchar=≻
+    syntax match ocamlNiceOperator "|>" conceal cchar=↦
+    syntax match ocamlNiceOperator "@@" conceal cchar=∘
 endif
 
 hi link ocamlNiceOperator Operator
