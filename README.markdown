@@ -23,7 +23,7 @@ Drop the ocaml.vim to ~/.vim/after/syntax (Linux/Mac OS X/BSD) or ~/vimfiles/aft
 Screenshot
 ----------
 
-![screenshot for ocaml.vim](https://lh3.googleusercontent.com/-_oDSlkueuJk/Ts4-0evDpYI/AAAAAAAADbk/x0DTp6kTdTU/s912/vim-ocaml-conceal.png)
+![screenshot for ocaml.vim](vim-ocaml-conceal.png)
 
 License
 -------
