@@ -42,8 +42,8 @@ endif
 
 if s:extraConceal
     " Match greater than and lower than w/o messing with Kleisli composition
-    syntax match ocamlNiceOperator "<=\ze[^<]" conceal cchar=≲
-    syntax match ocamlNiceOperator ">=\ze[^>]" conceal cchar=≳
+    syntax match ocamlNiceOperator "<=\ze[^<]" conceal cchar=≤
+    syntax match ocamlNiceOperator ">=\ze[^>]" conceal cchar=≥
     syntax match ocamlNiceOperator "=>" conceal cchar=⇒
     syntax match ocamlNiceOperator "\:\:" conceal cchar=∷
     syntax match ocamlNiceOperator "++" conceal cchar=⧺
