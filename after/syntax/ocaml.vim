@@ -16,7 +16,7 @@ syntax keyword ocamlNiceOperator rec conceal cchar=Γ
 syntax match ocamlNiceOperator "<-" conceal cchar=←
 syntax match ocamlNiceOperator "->" conceal cchar=→
 syntax match ocamlNiceOperator "\<sqrt\>" conceal cchar=√ 
-syntax match ocamlNiceOperator "\<==\>" conceal cchar=≡
+syntax match ocamlNiceOperator "==" conceal cchar=≡
 syntax match ocamlNiceOperator "<>" conceal cchar=≠
 syntax match ocamlNiceOperator "||" conceal cchar=∨
 syntax match ocamlNiceOperator "@" conceal cchar=⊕
